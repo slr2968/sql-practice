@@ -8,9 +8,10 @@
 </head>
 <body>
   <h1>SQL Practice on Texas Death Row Dataset</h1>
-  <textarea id="sql" rows="6" cols="100">SELECT * FROM deathrow LIMIT 10;</textarea><br>
-  <button>Run</button>
-  <pre id="output"></pre>
+  <textarea id="editor" rows="4" cols="80">SELECT * FROM deathrow LIMIT 10;</textarea><br>
+  <button id="run">Run</button>
+  <div id="results"></div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/sql.js@1.6.2/dist/sql-wasm.js"></script>
   <script src="app.js?v=3"></script>
