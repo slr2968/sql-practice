@@ -23,7 +23,7 @@ initSqlJs({
 
   const runQuery = () => {
     const sql = document.getElementById("sql").value;
-    console.log("🟨 Running query:", sql);
+    console.log("Running query text >>>", sql);
     let results;
     try {
       results = db.exec(sql);
