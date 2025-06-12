@@ -17,10 +17,10 @@ initSqlJs({
   // Sample record to test
 try {
   db.run("INSERT INTO deathrow VALUES (" +
-    "'553', '1983-09-24', '2004-11-21', '9.0', 'Young', 'Christopher Anthony'," +
-    "'999508', '34', '2006-03-31', '2018-07-17', 'Black', 'Bexar', 'Brown'," +
-    "'216.0', '6 ft 1 in', 'Bexar', 'Texas', 'I''m good Warden.'" +
-  ");");
+  "'553', '1983-09-24', '2004-11-21', '9.0', 'Young', 'Christopher Anthony'," +
+  "'999508', '34', '2006-03-31', '2018-07-17', 'Black', 'Bexar', 'Brown'," +
+  "'216.0', '6 ft 1 in', 'Bexar', 'Texas', 'I''m good Warden.'" +
+");");
 
   console.log("✅ Insert successful");
 } catch (e) {
