@@ -22,7 +22,7 @@ initSqlJs({
   );`);
 
   const runQuery = () => {
-    const sql = document.getElementById("editor").value;
+    const sql = document.getElementById("sql").value;
     console.log("🟨 Running query:", sql);
     let results;
     try {
