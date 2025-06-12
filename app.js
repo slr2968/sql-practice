@@ -2,6 +2,7 @@
 initSqlJs({
   locateFile: file => `https://cdn.jsdelivr.net/npm/sql.js@1.6.2/dist/${file}`
 }).then(SQL => {
+  console.log("✅ sql.js initialized");
   const db = new SQL.Database();
   db.run(`CREATE TABLE deathrow ("Execution" TEXT, "Date_of_Birth" TEXT, "Date_of_Offence" TEXT, "Highest_Education_Level" TEXT, "Last_Name" TEXT, "First_Name" TEXT, "TDCJ_Number" TEXT, "Age_at_Execution" TEXT, "Date_Received" TEXT, "Execution_Date" TEXT, "Race" TEXT, "County" TEXT, "Eye_Color" TEXT, "Weight" TEXT, "Height" TEXT, "Native_County" TEXT, "Native_State" TEXT, "Last_Statement" TEXT);`);
 
